@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/*BARRA DE NAVEGACION*/
+nav {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  flex-direction: row;
+}
+a {
+  text-decoration: none;
+}
+.enlaceGeneral {
+  color: grey;
+  font-size: 16px;
+}
+.enlaceColor {
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  background-color: #d9fdd3;
+  padding: 0px 30px;
+  width: 50px;
+  height: 20px;
+}
