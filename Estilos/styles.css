@@ -1,20 +1,30 @@
+/*GENERAL*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 /*BARRA DE NAVEGACION*/
 nav {
   margin: 0px;
   padding: 0px;
   background-color: #ffffff;
   height: 90px;
+  width: 100%;
   display: flex;
   align-items: center;
   align-content: flex-end;
+  position: fixed;
+  z-index: 100;
 }
 a {
   text-decoration: none;
-  margin: 10px;
+  font-family: Montserrat;
 }
 .enlaceGeneral {
   color: grey;
   font-size: 24px;
+  margin-left: 20px;
 }
 .enlaceColor {
   font-family: Montserrat;
@@ -24,6 +34,7 @@ a {
   width: fit-content;
   align-items: center;
   align-content: center;
+  margin-left: 20px;
 }
 .contactoTexto {
   color: #ffffff;
@@ -33,26 +44,51 @@ a {
 /*Div Hola*/
 .hola {
   padding-left: 200px;
-  padding-right: 0%;
   display: flex;
   align-items: center;
   align-content: center;
+  background-color: #f2f2f2;
+  height: 740px;
+}
+.textoColumna {
+  margin-top: 70px;
+}
+.imagenIconicaColumna {
+  margin-top: 70px;
 }
 .lluviaFoto {
   width: 500px;
   height: 500px;
-  margin-left: 270px;
+  padding: 50px;
+  margin-left: 150px;
 }
 h1 {
   font-size: 90px;
   margin: none;
   color: #00a884;
   margin-top: -15px;
+  font-family: Montserrat;
+  font-weight: 800;
 }
 h2 {
   font-size: 50px;
+  font-family: Montserrat;
+  font-weight: 600;
 }
 .sobreMiTexto {
   color: grey;
   font-size: 16px;
+  font-family: Montserrat;
+  margin-top: -50px;
+}
+.loquehago {
+  background-color: #00a884;
+  color: #ffffff;
+  font-size: 24px;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 50px;
+  margin-top: 30px;
+  font-family: Montserrat;
+  font-weight: 500;
 }
