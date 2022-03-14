@@ -202,9 +202,6 @@ h5 {
   display: flex;
   align-content: center;
 }
-.proyectoTres {
-  display: flex;
-}
 .proyectoIcono {
   width: 500px;
   height: 400px;
@@ -212,4 +209,7 @@ h5 {
   background-color: #ffffff;
   border: 1px solid #dddfe5;
   border-radius: 10px;
+}
+.imagen-proyectos {
+  width: 100%;
 }
