@@ -100,9 +100,12 @@ h2 {
   background-color: #f6f7fb;
   height: 1250px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 h3 {
-  padding-top: 120px;
+  padding-top: 50px;
   font-size: 60px;
   font-family: Montserrat;
   font-weight: 800;
@@ -110,20 +113,21 @@ h3 {
   color: black;
 }
 .textoConocimientos {
-  padding-top: -20px;
   font-size: 18px;
   text-align: center;
   font-family: Montserrat;
   color: gray;
 }
 .conocimientosIconosUno {
-  margin-top: 120px;
+  margin-top: 80px;
+  margin-left: 80px;
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .conocimientosIconosDos {
+  margin-left: 80px;
   width: 90%;
   display: flex;
   align-items: center;
@@ -139,18 +143,20 @@ h3 {
   padding: 30px;
 }
 .conocimientoFoto {
-  height: 200px;
+  height: 90px;
+  width: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
+  margin-left: 85px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 h4 {
   font-family: Montserrat;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 700;
-  margin-top: -20px;
 }
 
 /*Div Quote*/
@@ -237,10 +243,73 @@ h5 {
   background-color: #f6f7fb;
   height: 1250px;
   width: 100%;
+  justify-content: center;
 }
-
+form {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  background-color: #ffffff;
+  width: 1072px;
+  height: 692px;
+  border-radius: 20px;
+  border: grey 1px solid;
+  margin-left: 400px;
+  margin-top: 300px;
+}
+.columnaRedes {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 30px;
+}
+.redes {
+  display: flex;
+  flex-direction: column;
+}
+.red {
+  margin: 25px;
+}
+.columnaFormulario {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 30px;
+}
 /*Footer*/
 footer {
   background-color: #00a884;
-  height: 00px;
+  height: 305px;
+  padding: 80px 20px 60px;
+}
+.linksPagina {
+  display: flex;
+  justify-content: center;
+}
+.enlacePage {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 10px;
+}
+.linksRedes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.redesFoot {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: #00a884;
+  margin-right: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+.hechoPor {
+  text-align: center;
+  font-family: Montserrat;
+  color: white;
+  margin-top: 40px;
 }
