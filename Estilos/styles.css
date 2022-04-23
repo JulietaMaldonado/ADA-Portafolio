@@ -1,7 +1,8 @@
 /*GENERAL*/
-body {
+* {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 /*BARRA DE NAVEGACION*/
@@ -39,6 +40,14 @@ a {
 .contactoTexto {
   color: #f2f2f2;
   font-size: 20px;
+}
+
+/*HOVER NAV*/
+.enlaceGeneral:hover {
+  color: #00a884;
+}
+.enlaceColor:hover {
+  background-color: #7bd7c3;
 }
 
 /*Div Hola*/
@@ -80,18 +89,25 @@ h2 {
   font-size: 20px;
   font-family: Montserrat;
   margin-bottom: 30px;
-  margin-top: -40px;
+  margin-top: 40px;
 }
 .loquehago {
   background-color: #00a884;
-  color: #ffffff;
-  font-size: 24px;
   border: none;
   padding: 20px 40px;
   border-radius: 50px;
   margin-top: 30px;
+}
+.loquehago-link {
+  color: #ffffff;
+  font-size: 24px;
   font-family: Montserrat;
   font-weight: 500;
+}
+
+/*HOVER HOLA*/
+.loquehago:hover {
+  background-color: #7bd7c3;
 }
 
 /*Div Conocimientos*/
@@ -120,14 +136,14 @@ h3 {
 }
 .conocimientosIconosUno {
   margin-top: 80px;
-  margin-left: 80px;
+  margin-left: 85px;
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .conocimientosIconosDos {
-  margin-left: 80px;
+  margin-left: 85px;
   width: 90%;
   display: flex;
   align-items: center;
@@ -148,15 +164,20 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 85px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 h4 {
   font-family: Montserrat;
   text-align: center;
   font-size: 1.25em;
   font-weight: 700;
+}
+/*HOVER CONOCIMIENTOS*/
+.iconos:hover {
+  color: #00a884;
+  border: solid 1px #00a884;
 }
 
 /*Div Quote*/
@@ -237,6 +258,13 @@ h5 {
   font-weight: 700;
   margin-top: 40px;
 }
+/*HOVER PROYECTOS*/
+.proyectoIcono:hover {
+  border: 1px solid #00a884;
+}
+.nombreTP:hover {
+  color: #00a884;
+}
 
 /*Div Contacto*/
 .contacto {
@@ -250,22 +278,27 @@ form {
   flex-direction: row;
   padding: 50px;
   background-color: #ffffff;
-  width: 1072px;
-  height: 692px;
+  width: 1400px;
+  height: 800px;
   border-radius: 20px;
   border: grey 1px solid;
-  margin-left: 400px;
-  margin-top: 300px;
+  margin-left: 280px;
+  margin-top: 100px;
 }
 .columnaRedes {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin: 30px;
+  /*margin-left: 70px;*/
+  margin-top: 50px;
+}
+.texto-contactame {
+  margin-top: 50px;
 }
 .redes {
   display: flex;
   flex-direction: column;
+  margin-top: 70px;
 }
 .red {
   margin: 25px;
@@ -274,8 +307,66 @@ form {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin: 30px;
+  margin-left: 250px;
+  margin-top: 50px;
 }
+.formulario {
+  margin-top: 50px;
+}
+label {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.nomyape {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.textoforma1 {
+  border-radius: 20px;
+  border: none;
+  background-color: #f6f7fb;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 300px;
+  margin-right: 10px;
+}
+.email {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.textoforma2 {
+  background-color: #f6f7fb;
+  border: none;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.mensaje {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.textoforma3 {
+  background-color: #f6f7fb;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
 /*Footer*/
 footer {
   background-color: #00a884;
