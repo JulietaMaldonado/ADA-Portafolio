@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julieta Maldonado - Portafolio</title>
     <link rel="stylesheet" href="Estilos/styles.css" />
+    <link rel="stylesheet" href="Estilos/styles-ipad.css">
+    <link rel="stylesheet" href="Estilos/styles-celular.css">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
     </style>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
@@ -94,13 +103,9 @@
     </div>
 
     <div class="quote">
-      <h5>"</h5>
+      <h5><i class="fa-solid fa-quote-right"></i></h5>
       <p class="cita">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, <br />
-        debitis ratione illum, nemo ipsa ab unde libero eum reiciendis at nisi
-        <br />
-        atque odit voluptatum doloribus doloremque adipisci, nihil deserunt
-        incidunt?
+        Siempre he tenido una necesidad repulsiva de ser algo más que humano.
       </p>
       <p class="autor">-David Bowie</p>
     </div>
@@ -149,10 +154,28 @@
     <h2>Contactame</h2>
   <p class="texto-contactame">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi error, quae voluptatibus temporibus blanditiis neque eius deserunt dolorem a iusto mollitia? Hic est inventore at ex obcaecati, autem impedit minima.</p>
 <div class="redes">
-  <a href="" class="red">@JulietaGabriela</a>
-  <a href="" class="red">Julieta Maldonado</a>
-  <a href="" class="red">Julieta Maldonado</a>
-  <a href="" class="red">petamaldonado@hotmail.com</a></div>  
+
+  <div class="red1">
+    <div class="icono"><i class="fa-brands fa-linkedin-in"></i></div>
+    <a href="https://www.linkedin.com/in/julieta-maldonado/" class="red2">Julieta Maldonado</a>
+  </div>
+
+  <div class="red1">
+    <div class="icono"><i class="fa-brands fa-instagram"></i></div>
+    <a href="https://www.instagram.com/maldo_gd_2000/" class="red2"> Maldo - Graphic Design</a>
+  </div>
+
+  <div class="red1">
+    <div class="icono"><i class="fa-brands fa-github"></i></div>
+    <a href="https://github.com/JulietaMaldonado" class="red2"> JulietaMaldonado</a>
+  </div>
+
+  <div class="red1">
+    <div class="icono"><i class="fa-solid fa-envelope"></i></div>
+    <a href="mailto:petamaldonado@hotmail.com" class="red2"> petamaldonado@hotmail.com</a>
+  </div>
+</div>  
+  
 </div>
   <div class="columnaFormulario">
     <h2>Escribime</h2>
@@ -160,21 +183,24 @@
       <div class="row">
         <div class="nomyape">
      <label for="nombre">Nombre *</label>
-     <input type="text" class="textoforma1">
+     <input type="text" class="textoforma1" placeholder="Ada">
         </div>
         <div class="nomyape">
           <label for="apellido">Apellido *</label>
-          <input type="text" class="textoforma1">
+          <input type="text" class="textoforma1" placeholder="Lovelace">
         </div>
       </div>
       <div class="email">
         <label for="mail">Mail *</label>
-          <input type="text" class="textoforma2">
+          <input type="text" class="textoforma2" placeholder="adalovelace@gmail.com">
       </div>
       <div class="mensaje">
         <label for="mensaje">Mensaje *</label>
-        <textarea name="" id="" cols="30" rows="10" class="textoforma3">Escribí un mensaje aquí</textarea>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe un mensaje aquí" class="textoforma3"></textarea>
       </div>
+      <button class="enviar">
+        ENVIAR
+      </button>
     </div>
   </div>
 </form>
