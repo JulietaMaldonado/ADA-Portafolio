@@ -1,0 +1,420 @@
+@media (max-width: 600px) {
+  /*BARRA DE NAVEGACION*/
+  nav {
+    display: none;
+  }
+  /*Div Hola*/
+  .hola {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 1200px;
+  }
+  .lluviaFoto {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-right: 350px;
+  }
+  h1 {
+    font-size: 30px;
+    color: #00a884;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 800;
+    text-align: center;
+  }
+  .sobreMiTexto {
+    color: grey;
+    font-size: 10px;
+    font-family: Montserrat;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .loquehago {
+    background-color: #00a884;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+  }
+  .loquehago-link {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 500;
+  }
+
+  /*HOVER HOLA*/
+  .loquehago:hover {
+    background-color: #7bd7c3;
+  }
+
+  /*Div Conocimientos*/
+
+  .conocimientos {
+    background-color: #f6f7fb;
+    height: 1250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .textoConocimientos {
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+    color: gray;
+  }
+  .conocimientosIconosUno {
+    margin-top: 80px;
+    margin-left: 85px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .conocimientosIconosDos {
+    margin-left: 85px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .iconos {
+    background-color: #ffffff;
+    border: 1px solid #dddfe5;
+    border-radius: 10px;
+    width: 260px;
+    height: 229px;
+    margin: 10px;
+    padding: 30px;
+  }
+  .conocimientoFoto {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+  /*HOVER CONOCIMIENTOS*/
+  .iconos:hover {
+    color: #00a884;
+    border: solid 1px #00a884;
+  }
+
+  /*Div Quote*/
+
+  .quote {
+    width: 100%;
+    height: 600px;
+    background-color: #00a884;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+  }
+  h5 {
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  .cita {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+  }
+  .autor {
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  /*Div Proyectos*/
+  .proyectos {
+    height: 1400px;
+  }
+  .textoProyectos {
+    padding-top: -20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+    color: gray;
+    margin-bottom: 100px;
+  }
+  .proyectoUno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .proyectoDos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .proyectoIcono {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dddfe5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .imagen-proyectos {
+    width: 70%;
+    height: 70%;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+  .nombreTP {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+  }
+  /*HOVER PROYECTOS*/
+  .proyectoIcono:hover {
+    border: 1px solid #00a884;
+  }
+  .nombreTP:hover {
+    color: #00a884;
+  }
+
+  /*Div Contacto*/
+  .contacto {
+    background-color: #f6f7fb;
+    height: 1250px;
+    width: 100%;
+    display: flex;
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    background-color: #ffffff;
+    width: 1400px;
+    height: 900px;
+    border-radius: 20px;
+    border: grey 1px solid;
+    margin-left: 280px;
+    margin-top: 150px;
+  }
+  .columnaRedes {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+  }
+  .texto-contactame {
+    margin-top: 50px;
+  }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .red1 {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  .red2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+  }
+  .icono {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #00a884;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .columnaFormulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+  .formulario {
+    margin-top: 50px;
+  }
+  label {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .nomyape {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .textoforma1 {
+    border-radius: 20px;
+    border: none;
+    background-color: #f6f7fb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 300px;
+    margin-right: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  .email {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .textoforma2 {
+    background-color: #f6f7fb;
+    border: none;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 630px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-size: 16px;
+  }
+  .mensaje {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .textoforma3 {
+    background-color: #f6f7fb;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .enviar {
+    background-color: #00a884;
+    width: 131px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  /*CONTACTO HOVER*/
+  .red1:hover i {
+    background-color: #00a884;
+    color: white;
+  }
+  .red1:hover a {
+    color: #00a884;
+  }
+
+  /*Footer*/
+  footer {
+    background-color: #00a884;
+    height: 305px;
+    padding: 80px 20px 60px;
+  }
+  .linksPagina {
+    display: flex;
+    justify-content: center;
+  }
+  .enlacePage {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .linksRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .redesFoot {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 30px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    color: #00a884;
+  }
+
+  .hechoPor {
+    text-align: center;
+    font-family: Montserrat;
+    color: white;
+    margin-top: 40px;
+  }
+
+  /*FOOTER HOVER*/
+  .redesFoot:hover {
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+  }
+}
