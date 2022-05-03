@@ -3,20 +3,24 @@
   nav {
     display: none;
   }
+  body {
+    background-color: red;
+  }
   /*Div Hola*/
   .hola {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #ffffff;
-    height: 1200px;
+    height: fit-content;
+    width: 100%;
   }
   .lluviaFoto {
     width: 400px;
     height: 400px;
     display: flex;
     justify-content: center;
-    margin-right: 350px;
+    margin-right: 150px;
   }
   h1 {
     font-size: 30px;
@@ -24,6 +28,7 @@
     margin-top: 15px;
     font-family: Montserrat;
     font-weight: 800;
+    text-align: center;
   }
   h2 {
     font-size: 20px;
@@ -37,6 +42,7 @@
     font-family: Montserrat;
     margin-bottom: 15px;
     margin-top: 20px;
+    text-align: center;
   }
   .loquehago {
     background-color: #00a884;
@@ -64,78 +70,67 @@
 
   .conocimientos {
     background-color: #f6f7fb;
-    height: 1250px;
+    height: fit-content;
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
   }
   h3 {
     padding-top: 50px;
-    font-size: 60px;
+    font-size: 30px;
     font-family: Montserrat;
     font-weight: 800;
     text-align: center;
     color: black;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 20px;
   }
   .textoConocimientos {
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     font-family: Montserrat;
     color: gray;
   }
   .conocimientosIconosUno {
     margin-top: 80px;
-    margin-left: 85px;
+    margin-left: 25px;
     width: 90%;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   .conocimientosIconosDos {
-    margin-left: 85px;
+    margin-left: 25px;
     width: 90%;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   .iconos {
     background-color: #ffffff;
     border: 1px solid #dddfe5;
     border-radius: 10px;
-    width: 260px;
-    height: 229px;
+    width: 150px;
+    height: 140px;
     margin: 10px;
     padding: 30px;
   }
   .conocimientoFoto {
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-right: 200px;
   }
   h4 {
     font-family: Montserrat;
     text-align: center;
-    font-size: 1.25em;
+    font-size: 14px;
     font-weight: 700;
-  }
-  /*HOVER CONOCIMIENTOS*/
-  .iconos:hover {
-    color: #00a884;
-    border: solid 1px #00a884;
   }
 
   /*Div Quote*/
 
   .quote {
-    width: 100%;
     height: 600px;
     background-color: #00a884;
     align-items: center;
@@ -153,13 +148,13 @@
   }
   .cita {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
     font-family: Montserrat;
   }
   .autor {
     color: #ffffff;
-    font-size: 27px;
+    font-size: 23px;
     text-align: center;
     font-family: Montserrat;
     font-weight: 700;
@@ -189,9 +184,8 @@
     justify-content: center;
   }
   .proyectoIcono {
-    width: 500px;
-    height: 400px;
-    margin: 10px;
+    width: 200px;
+    height: 200px;
     background-color: #ffffff;
     border: 1px solid #dddfe5;
     border-radius: 10px;

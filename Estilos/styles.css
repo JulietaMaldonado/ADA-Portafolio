@@ -318,7 +318,7 @@ form {
 .icono {
   width: 40px;
   height: 40px;
-  background-color: white;
+  background-color: transparent;
   color: #00a884;
   display: flex;
   justify-content: center;
