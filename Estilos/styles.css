@@ -303,6 +303,12 @@ form {
   flex-direction: column;
   margin-top: 70px;
 }
+.redesA {
+  margin-top: 0px;
+}
+.redesB {
+  margin-top: -25px;
+}
 .red1 {
   margin: 25px;
   display: flex;
@@ -658,8 +664,11 @@ footer {
   }
   .redes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 35px;
+  }
+  .redesB {
+    margin-top: 0px;
   }
   .red1 {
     margin: 25px;
@@ -733,6 +742,7 @@ footer {
     margin-top: 5px;
     font-size: 8px;
     padding: 5px;
+    width: 315px;
   }
   .enviar {
     width: 85px;
@@ -747,38 +757,25 @@ footer {
     padding: 40px 10px 30px;
   }
   .linksPagina {
-    display: flex;
-    justify-content: center;
+    display: none;
   }
   .enlacePage {
-    color: white;
-    font-size: 16px;
+    font-size: 10px;
     text-align: center;
-    margin-right: 10px;
-  }
-  .linksRedes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin-right: 5px;
   }
   .redesFoot {
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    margin-right: 30px;
-    margin-top: 30px;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 25px;
-    color: #00a884;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding-top: 5px;
+    font-size: 15px;
   }
 
   .hechoPor {
-    text-align: center;
-    font-family: Montserrat;
-    color: white;
-    margin-top: 40px;
+    margin-top: 20px;
+    font-size: 10px;
   }
 }
 
@@ -786,5 +783,303 @@ footer {
 @media (max-width: 400px) {
   nav {
     display: none;
+  }
+
+  /*HOLA DIV*/
+  .hola {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+  }
+  .textoColumna {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .imagenIconicaColumna {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .lluviaFoto {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .sobreMiTexto {
+    font-size: 8px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .loquehago {
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+    display: flex;
+    align-self: center;
+  }
+  .loquehago-link {
+    font-size: 10px;
+  }
+
+  /*CONOCIMIENTOS DIV*/
+
+  .conocimientos {
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h3 {
+    padding-top: 0px;
+    font-size: 30px;
+    margin-top: -170px;
+    margin-bottom: 20px;
+  }
+  .textoConocimientos {
+    font-size: 10px;
+  }
+  .conocimientosIconosUno {
+    margin-top: -40px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .conocimientosIconosDos {
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .iconos {
+    border-radius: 10px;
+    width: 130px;
+    height: 110px;
+    margin: 10px;
+    padding: 30px;
+  }
+  .conocimientoFoto {
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+
+  /*QUOTE DIV*/
+
+  .quote {
+    height: 300px;
+  }
+  h5 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .cita {
+    font-size: 10px;
+  }
+  .autor {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  /*PROYECTOS DIV*/
+  .proyectos {
+    height: 1550px;
+    margin-top: 250px;
+  }
+  .textoProyectos {
+    padding-top: 0px;
+    font-size: 10px;
+    margin-bottom: 50px;
+  }
+  .proyectoUno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .proyectoDos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .proyectoIcono {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .imagen-proyectos {
+    width: 50%;
+    height: 50%;
+  }
+  .nombreTP {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  /*CONTACTO DIV*/
+  .contacto {
+    height: 1100px;
+  }
+  form {
+    height: 1000px;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .columnaRedes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .texto-contactame {
+    margin-top: 25px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .redes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+  }
+  .redesB {
+    margin-top: 0px;
+  }
+  .red1 {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  .red2 {
+    font-family: Montserrat;
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: black;
+  }
+  .icono {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .columnaFormulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .formulario {
+    margin-top: 25px;
+  }
+  label {
+    font-size: 10px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .nomyape {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .textoforma1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 150px;
+    margin-right: 10px;
+    font-size: 8px;
+  }
+  .email {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .textoforma2 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    width: 315px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 8px;
+  }
+  .mensaje {
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+  .textoforma3 {
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 8px;
+    padding: 5px;
+    width: 315px;
+  }
+  .enviar {
+    width: 85px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  /*DIV FOOTER*/
+  footer {
+    height: 305px;
+    padding: 40px 10px 30px;
+  }
+  .linksPagina {
+    display: none;
+  }
+  .enlacePage {
+    font-size: 10px;
+    text-align: center;
+    margin-right: 5px;
+  }
+  .redesFoot {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding-top: 5px;
+    font-size: 15px;
+  }
+
+  .hechoPor {
+    margin-top: 20px;
+    font-size: 10px;
   }
 }
