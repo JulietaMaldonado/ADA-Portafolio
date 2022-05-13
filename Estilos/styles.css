@@ -791,7 +791,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
+    height: 500px;
   }
   .textoColumna {
     margin-top: 0px;
@@ -806,14 +806,14 @@ footer {
     flex-direction: column;
   }
   .lluviaFoto {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     padding: 25px;
     margin-left: 0;
   }
   h1 {
-    font-size: 30px;
-    margin-top: 15px;
+    font-size: 20px;
+    margin-top: 10px;
     text-align: center;
   }
   h2 {
@@ -821,26 +821,26 @@ footer {
     text-align: center;
   }
   .sobreMiTexto {
-    font-size: 8px;
+    font-size: 6px;
     margin-bottom: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
   }
   .loquehago {
     padding: 10px 20px;
     border-radius: 25px;
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     align-self: center;
   }
   .loquehago-link {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   /*CONOCIMIENTOS DIV*/
 
   .conocimientos {
-    height: 1200px;
+    height: 1100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -848,23 +848,23 @@ footer {
   }
   h3 {
     padding-top: 0px;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: -170px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .textoConocimientos {
-    font-size: 10px;
+    font-size: 6px;
   }
   .conocimientosIconosUno {
-    margin-top: -40px;
-    margin-left: 45px;
+    margin-top: -100px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
   .conocimientosIconosDos {
-    margin-left: 45px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -891,29 +891,29 @@ footer {
   /*QUOTE DIV*/
 
   .quote {
-    height: 300px;
+    height: 200px;
   }
   h5 {
     font-size: 40px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-top: -19px;
   }
   .cita {
-    font-size: 10px;
+    font-size: 6px;
   }
   .autor {
-    font-size: 14px;
-    margin-top: 30px;
+    font-size: 10px;
+    margin-top: 10px;
   }
 
   /*PROYECTOS DIV*/
   .proyectos {
-    height: 1550px;
+    height: 1250px;
     margin-top: 250px;
   }
   .textoProyectos {
     padding-top: 0px;
-    font-size: 10px;
+    font-size: 6px;
     margin-bottom: 50px;
   }
   .proyectoUno {
@@ -929,8 +929,8 @@ footer {
     flex-direction: column;
   }
   .proyectoIcono {
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -938,10 +938,13 @@ footer {
   .imagen-proyectos {
     width: 50%;
     height: 50%;
+    display: flex;
+    justify-content: center;
   }
   .nombreTP {
     font-size: 10px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   /*CONTACTO DIV*/
@@ -969,11 +972,11 @@ footer {
   }
   .redes {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 35px;
   }
   .redesB {
-    margin-top: 0px;
+    margin-top: -25px;
   }
   .red1 {
     margin: 25px;
@@ -997,7 +1000,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 50px;
   }
   .formulario {
@@ -1018,7 +1021,7 @@ footer {
   .textoforma1 {
     padding-top: 7px;
     padding-bottom: 7px;
-    width: 150px;
+    width: 100px;
     margin-right: 10px;
     font-size: 8px;
   }
@@ -1032,7 +1035,7 @@ footer {
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 7px;
-    width: 315px;
+    width: 215px;
     margin-top: 5px;
     margin-bottom: 15px;
     font-size: 8px;
@@ -1047,18 +1050,19 @@ footer {
     margin-top: 5px;
     font-size: 8px;
     padding: 5px;
-    width: 315px;
+    width: 215px;
   }
   .enviar {
-    width: 85px;
+    width: 75px;
     height: 25px;
     margin-top: 25px;
     margin-left: 20px;
+    font-size: 10px;
   }
 
   /*DIV FOOTER*/
   footer {
-    height: 305px;
+    height: 195px;
     padding: 40px 10px 30px;
   }
   .linksPagina {
