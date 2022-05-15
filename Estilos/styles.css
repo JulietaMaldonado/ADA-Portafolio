@@ -68,8 +68,7 @@ a {
 .lluviaFoto {
   width: 500px;
   height: 500px;
-  padding: 50px;
-  margin-left: 150px;
+  padding: 20px;
 }
 h1 {
   font-size: 90px;
@@ -127,8 +126,7 @@ h3 {
   font-weight: 800;
   text-align: center;
   color: black;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin: auto;
 }
 .textoConocimientos {
   font-size: 18px;
@@ -136,20 +134,12 @@ h3 {
   font-family: Montserrat;
   color: gray;
 }
-.conocimientosIconosUno {
-  margin-top: 80px;
-  margin-left: 85px;
-  width: 90%;
+.conocimientosIconos {
+  margin: auto;
+  width: 60%;
   display: flex;
-  align-items: center;
   justify-content: center;
-}
-.conocimientosIconosDos {
-  margin-left: 85px;
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 .iconos {
   background-color: #ffffff;
@@ -228,18 +218,15 @@ h5 {
   color: gray;
   margin-bottom: 100px;
 }
-.proyectoUno {
+.proyecto {
+  width: 90%;
   display: flex;
-  align-items: center;
   justify-content: center;
-}
-.proyectoDos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
 }
 .proyectoIcono {
-  width: 500px;
+  width: 30%;
   height: 400px;
   margin: 10px;
   background-color: #ffffff;
@@ -286,7 +273,7 @@ form {
   height: 900px;
   border-radius: 20px;
   border: grey 1px solid;
-  margin-left: 280px;
+  margin-left: 70px;
   margin-top: 150px;
 }
 .columnaRedes {
@@ -546,35 +533,21 @@ footer {
   /*CONOCIMIENTOS DIV*/
 
   .conocimientos {
-    height: 1200px;
+    height: 650px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
   h3 {
-    padding-top: 0px;
+    margin: auto;
     font-size: 30px;
-    margin-top: -170px;
-    margin-bottom: 20px;
   }
   .textoConocimientos {
     font-size: 10px;
   }
-  .conocimientosIconosUno {
-    margin-top: -40px;
-    margin-left: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .conocimientosIconosDos {
-    margin-left: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  .conocimientosIconos {
+    margin-top: 50px;
   }
   .iconos {
     border-radius: 10px;
@@ -614,36 +587,29 @@ footer {
 
   /*PROYECTOS DIV*/
   .proyectos {
-    height: 1550px;
-    margin-top: 250px;
+    height: 2150px;
   }
   .textoProyectos {
-    padding-top: 0px;
     font-size: 10px;
     margin-bottom: 50px;
   }
-  .proyectoUno {
+  .proyecto {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-  }
-  .proyectoDos {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
   }
   .proyectoIcono {
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 300px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .imagen-proyectos {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
   }
   .nombreTP {
     font-size: 10px;
@@ -652,21 +618,20 @@ footer {
 
   /*CONTACTO DIV*/
   .contacto {
-    height: 1100px;
+    height: 1000px;
   }
   form {
-    height: 1000px;
-    width: 80%;
-    margin-left: 40px;
-    margin-top: 40px;
+    height: 850px;
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
   }
   .columnaRedes {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-top: 50px;
+    width: 90%;
+    align-items: center;
   }
   .texto-contactame {
     margin-top: 25px;
@@ -702,9 +667,10 @@ footer {
   .columnaFormulario {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-left: 20px;
+    width: 90%;
+    margin-left: 0px;
     margin-top: 50px;
+    align-items: center;
   }
   .formulario {
     margin-top: 25px;
@@ -764,7 +730,7 @@ footer {
 
   /*DIV FOOTER*/
   footer {
-    height: 305px;
+    height: 150px;
     padding: 40px 10px 30px;
   }
   .linksPagina {
@@ -851,39 +817,26 @@ footer {
   /*CONOCIMIENTOS DIV*/
 
   .conocimientos {
-    height: 1100px;
+    height: 950px;
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
   }
   h3 {
-    padding-top: 0px;
     font-size: 20px;
-    margin-top: -170px;
-    margin-bottom: 10px;
+    margin: auto;
   }
   .textoConocimientos {
     font-size: 6px;
   }
-  .conocimientosIconosUno {
-    margin-top: -100px;
-    margin-left: 20px;
+  .conocimientosIconos {
+    margin: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-  }
-  .conocimientosIconosDos {
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .iconos {
     border-radius: 10px;
-    width: 130px;
     height: 110px;
     margin: 10px;
     padding: 30px;
@@ -919,25 +872,19 @@ footer {
 
   /*PROYECTOS DIV*/
   .proyectos {
-    height: 1250px;
-    margin-top: 250px;
+    height: 1200px;
   }
   .textoProyectos {
     padding-top: 0px;
     font-size: 6px;
     margin-bottom: 50px;
   }
-  .proyectoUno {
+  .proyecto {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  .proyectoDos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    margin: auto;
   }
   .proyectoIcono {
     width: 200px;
@@ -965,8 +912,7 @@ footer {
   form {
     height: 1000px;
     width: 80%;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin: auto;
     display: flex;
     flex-direction: column;
   }

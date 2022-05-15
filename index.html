@@ -19,15 +19,15 @@
   </head>
   <body>
     <nav>
-      <a href="#hola" class="enlaceGeneral">HOLA</a>
-      <a href="#conocimientos" class="enlaceGeneral">CONOCIMIENTOS</a>
-      <a href="#proyectos" class="enlaceGeneral">PROYECTOS</a>
+      <a href="#hola" class="enlaceGeneral" aria-label="Llevarme a presentacion">HOLA</a>
+      <a href="#conocimientos" class="enlaceGeneral" aria-label="Llevarme a conocimientos">CONOCIMIENTOS</a>
+      <a href="#proyectos" class="enlaceGeneral" aria-label="Llevarme a proyectos">PROYECTOS</a>
       <div class="enlaceColor">
-        <a href="#contacto" class="contactoTexto">CONTACTO</a>
+        <a href="#contacto" class="contactoTexto" aria-label="Llevarme a contacto">CONTACTO</a>
       </div>
     </nav>
 
-    <div class="hola" id="hola">
+    <div class="hola" id="hola" aria-label="Presentacion">
       <div class="textoColumna">
         <h2>¡Hola! Soy</h2>
         <h1>Julieta Maldonado</h1>
@@ -35,7 +35,7 @@
           Diseñadora grafica, front end developer y escritora de libros
         </p>
 
-        <button class="loquehago" id="loquehago"><a href="#conocimientos" class="loquehago-link">LO QUE HAGO</a></button>
+        <button class="loquehago" id="loquehago"><a href="#conocimientos" class="loquehago-link" aria-label="Llevarme a conocimientos">LO QUE HAGO</a></button>
       </div>
       <div class="imagenIconicaColumna">
         <img
@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    <div class="conocimientos" id="conocimientos">
+    <div class="conocimientos" id="conocimientos" aria-label="Conocimientos">
       <div class="texto">
         <h3>Mis conocimientos</h3>
         <p class="textoConocimientos">
@@ -54,8 +54,8 @@
           Html, Css y JavaScript.
         </p>
       </div>
-      <div class="conocimientosIconosUno">
-        <div class="iconos">
+      <div class="conocimientosIconos">
+        <div class="iconos" aria-label="HTML">
           <img
             src="Imagenes/html5.svg"
             alt="html"
@@ -63,7 +63,7 @@
           />
           <h4>HTML 5</h4>
         </div>
-        <div class="iconos">
+        <div class="iconos" aria-label="CSS">
           <img
             src="Imagenes/css3.svg"
             alt="css"
@@ -71,13 +71,11 @@
           />
           <h4>CSS 3</h4>
         </div>
-        <div class="iconos">
+        <div class="iconos" aria-label="Sass">
           <img src="Imagenes/sass.svg" alt="sass" class="conocimientoFoto" />
           <h4>Sass</h4>
         </div>
-      </div>
-      <div class="conocimientosIconosDos">
-        <div class="iconos">
+        <div class="iconos" aria-label="JavaScript">
           <img
             src="Imagenes/javascript.svg"
             alt="javascript"
@@ -89,7 +87,7 @@
           <img src="Imagenes/react.svg" alt="react" class="conocimientoFoto" />
           <h4>React</h4>
         </div>
-        <div class="iconos">
+        <div class="iconos" aria-label="Github">
           <img
             src="Imagenes/git.svg"
             alt="github"
@@ -100,7 +98,7 @@
       </div>
     </div>
 
-    <div class="quote">
+    <div class="quote" aria-label="Cita">
       <h5><i class="fa-solid fa-quote-right"></i></h5>
       <p class="cita">
         Siempre he tenido una necesidad repulsiva de ser algo más que humano.
@@ -108,7 +106,7 @@
       <p class="autor">-David Bowie</p>
     </div>
 
-    <div class="proyectos" id="proyectos">
+    <div class="proyectos" id="proyectos" aria-label="Proyectos">
       <div class="texto">
         <h3>Mis Proyectos</h3>
         <p class="textoProyectos">
@@ -116,64 +114,62 @@
           Html, Css y JavaScript.
         </p>
       </div>
-      <div class="proyectoUno">
-        <div class="proyectoIcono">
+      <div class="proyecto">
+        <div class="proyectoIcono" aria-label="Portafolio">
           <img src="Imagenes/portafolio.svg" alt="portafolio" class="imagen-proyectos"/>
           <h4 class="nombreTP">Portafolio</h4>
         </div>
-        <div class="proyectoIcono">
+        <div class="proyectoIcono" aria-label="Generador de Memes">
           <img src="Imagenes/memes.svg" alt="generador de memes" class="imagen-proyectos"/>
           <h4 class="nombreTP">Generador de Memes</h4>
         </div>
-        <div class="proyectoIcono">
+        <div class="proyectoIcono" aria-label="MatcheADAs">
           <img src="Imagenes/match.svg" alt="matcheadas" class="imagen-proyectos"/>
           <h4 class="nombreTP">MatcheADAs</h4>
         </div>
-      </div>
-      <div class="proyectoDos">
-        <div class="proyectoIcono">
+        <div class="proyectoIcono" aria-label="AhorrADAs">
           <img src="Imagenes/ahorradas.svg" alt="ahorradas" class="imagen-proyectos"/>
           <h4 class="nombreTP">AhorrADAs</h4>
         </div>
-        <div class="proyectoIcono">
+        <div class="proyectoIcono" aria-label="ADA Comics">
           <img src="Imagenes/comics.svg" alt="ada comics" class="imagen-proyectos"/>
           <h4 class="nombreTP">ADA Comics</h4>
         </div>
-        <div class="proyectoIcono">
+        <div class="proyectoIcono" aria-label="Buscador de películas">
           <img src="Imagenes/peliculas.svg" alt="buscador de peliculas" class="imagen-proyectos"/>
           <h4 class="nombreTP">Buscador de películas</h4>
         </div>
       </div>
       </div>
     </div>
-    <div class="contacto" id="contacto">
+    <div class="contacto" id="contacto" aria-label="Contacto">
 <form>
   <div class="columnaRedes">
     <h2>Contactame</h2>
-  <p class="texto-contactame">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi error, quae voluptatibus temporibus blanditiis neque eius deserunt dolorem a iusto mollitia? Hic est inventore at ex obcaecati, autem impedit minima.</p>
+  <p class="texto-contactame">Si deseas hacerme alguna consulta sobre mis trabajos de front end y diseño grafico visita alguno de estos links.</p>
 <div class="redes">
 
 <div class="redesA">
   <div class="red1">
     <i class="fa-brands fa-linkedin-in icono"></i>
-    <a href="https://www.linkedin.com/in/julieta-maldonado/" class="red2">Julieta Maldonado</a>
+    <a href="https://www.linkedin.com/in/julieta-maldonado/" class="red2" aria-label="linkedin">Julieta Maldonado</a>
   </div>
 
   <div class="red1">
     <i class="fa-brands fa-instagram icono"></i>
-    <a href="https://www.instagram.com/maldo_gd_2000/" class="red2"> Maldo - Graphic Design</a>
+    <a href="https://www.instagram.com/maldo_gd_2000/" class="red2" aria-label="Instagram de disenio"> Maldo - Graphic Design</a>
   </div>
 </div>
 
 <div class="redesB">
 <div class="red1">
   <i class="fa-brands fa-github icono"></i>
-    <a href="https://github.com/JulietaMaldonado" class="red2"> JulietaMaldonado</a>
+    <a href="https://github.com/JulietaMaldonado" class="red2" aria-label="Github"> JulietaMaldonado</a>
   </div>
 
   <div class="red1">
     <i class="fa-solid fa-envelope icono"></i>
-    <a href="mailto:petamaldonado@hotmail.com" class="red2"> petamaldonado@hotmail.com</a>
+    <a href="mailto:petamaldonado@hotmail.com" class="red2" aria-label="Mail"> petamaldonado@hotmail.com</a>
   </div>
 </div>
 
@@ -186,22 +182,22 @@
       <div class="row">
         <div class="nomyape">
      <label for="nombre">Nombre *</label>
-     <input type="text" class="textoforma1" placeholder="Ada">
+     <input type="text" class="textoforma1" placeholder="Ada" aria-label="Escribir nombre">
         </div>
         <div class="nomyape">
           <label for="apellido">Apellido *</label>
-          <input type="text" class="textoforma1" placeholder="Lovelace">
+          <input type="text" class="textoforma1" placeholder="Lovelace" aria-label="Escribir apellido">
         </div>
       </div>
       <div class="email">
         <label for="mail">Mail *</label>
-          <input type="text" class="textoforma2" placeholder="adalovelace@gmail.com">
+          <input type="text" class="textoforma2" placeholder="adalovelace@gmail.com" aria-label="Escribir mail">
       </div>
       <div class="mensaje">
         <label for="mensaje">Mensaje *</label>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe un mensaje aquí" class="textoforma3"></textarea>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe un mensaje aquí" class="textoforma3" aria-label="Escribir mensaje"></textarea>
       </div>
-      <button class="enviar">
+      <button class="enviar" aria-label="Enviar">
         ENVIAR
       </button>
     </div>
@@ -217,10 +213,10 @@
         <a href="#contacto" class="enlacePage">CONTACTO</a>
       </div>
       <div class="linksRedes">
-        <a href="https://www.linkedin.com/in/julieta-maldonado/" class="redesFoot"><i class="fa-brands fa-linkedin-in"></i></a>
-         <a href="https://www.instagram.com/maldo_gd_2000/" class="redesFoot"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://github.com/JulietaMaldonado" class="redesFoot"><i class="fa-brands fa-github"></i></a>
-          <a href="mailto:petamaldonado@hotmail.com" class="redesFoot"><i class="fa-solid fa-envelope"></i></a></div>
+        <a href="https://www.linkedin.com/in/julieta-maldonado/" class="redesFoot" aria-label="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+         <a href="https://www.instagram.com/maldo_gd_2000/" class="redesFoot" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/JulietaMaldonado" class="redesFoot" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:petamaldonado@hotmail.com" class="redesFoot" aria-label="Mail"><i class="fa-solid fa-envelope"></i></a></div>
       </div>
       <p class="hechoPor">Hecho con ❤️ por Julieta Maldonado</p>
     </footer>
