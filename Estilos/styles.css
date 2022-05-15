@@ -425,6 +425,15 @@ label {
 .red1:hover a {
   color: #00a884;
 }
+.textoforma1:hover {
+  border: #00a884 2px solid;
+}
+.textoforma2:hover {
+  border: #00a884 2px solid;
+}
+.textoforma3:hover {
+  border: #00a884 2px solid;
+}
 
 /*Footer*/
 footer {
@@ -473,6 +482,8 @@ footer {
   color: white;
   border: solid 2px white;
 }
+
+/******************FINAL DE LA VERSION WEB E INICIO DE LA VERSION RESPONSIVE*****************/
 
 /*VERSION IPAD*/
 @media (max-width: 600px) {
